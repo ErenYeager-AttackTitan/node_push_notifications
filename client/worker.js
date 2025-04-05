@@ -5,6 +5,6 @@ self.addEventListener("push", e => {
   console.log("Push Recieved...");
   self.registration.showNotification(data.title, {
     body: "Greatest Anime Of All Time Attack On Titan",
-    icon: "https://goodproxy.goodproxy.workers.dev/fetch?url=https://wallpapers.com/images/featured-small/attack-on-titan-poster-wqgkxk56b56hrkco.webp"
+    icon: "https://mikasa-ackerman-cdn.pages.dev/shingeki-no-kyojin.webp"
   });
 });
